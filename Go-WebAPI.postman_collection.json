@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "f6a404a4-669d-4665-a23d-7b8f0f520b98",
+		"name": "Go WebAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12678181"
+	},
+	"item": [
+		{
+			"name": "Posts",
+			"item": [
+				{
+					"name": "Posts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{SERVER_URI}}/posts/"
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "{{SERVER_URI}}/posts/2"
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\":\"test 3\", \n    \"body\":\"test body 3\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{SERVER_URI}}/posts/3"
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\":\"test\", \n    \"body\":\"test body\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{SERVER_URI}}/posts/"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

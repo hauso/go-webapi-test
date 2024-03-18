@@ -1,0 +1,5 @@
+.idea/
+.gitignore
+!docker/db/data/
+
+api/msgapi
