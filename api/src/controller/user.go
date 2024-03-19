@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"msgapi/src/service"
-	"msgapi/models"
-	"msgapi/util"
+	"webapi/src/service"
+	"webapi/models"
+	"webapi/util"
 	"net/http"
 	"time"
 

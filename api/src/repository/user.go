@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"msgapi/infrastructure"
-	"msgapi/models"
-	"msgapi/util"
+	"webapi/infrastructure"
+	"webapi/models"
+	"webapi/util"
 )
 
 //UserRepository -> UserRepository responsible for accessing database

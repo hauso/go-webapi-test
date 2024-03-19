@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"msgapi/src/controller"
-	"msgapi/infrastructure"
+	"webapi/src/controller"
+	"webapi/infrastructure"
 )
 
 //PostRoute -> Route for question module

@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"msgapi/src/controller"
-	"msgapi/infrastructure"
+	"webapi/src/controller"
+	"webapi/infrastructure"
 )
 
 //UserRoute -> Route for user module

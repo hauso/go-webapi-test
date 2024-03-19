@@ -1,8 +1,8 @@
 package service
 
 import (
-	"msgapi/src/repository"
-	"msgapi/models"
+	"webapi/src/repository"
+	"webapi/models"
 )
 
 //PostService PostService struct

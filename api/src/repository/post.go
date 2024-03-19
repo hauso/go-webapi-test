@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"msgapi/infrastructure"
-	"msgapi/models"
+	"webapi/infrastructure"
+	"webapi/models"
 )
 
 //PostRepository -> PostRepository

@@ -1,12 +1,12 @@
 package main
 
 import (
-	"msgapi/src/controller"
-	"msgapi/src/repository"
-	"msgapi/src/routes"
-	"msgapi/src/service"
-	"msgapi/infrastructure"
-	"msgapi/models"
+	"webapi/src/controller"
+	"webapi/src/repository"
+	"webapi/src/routes"
+	"webapi/src/service"
+	"webapi/infrastructure"
+	"webapi/models"
 )
 
 func init() {
