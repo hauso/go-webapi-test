@@ -12,9 +12,9 @@
 - require login to container and run api server
  `docker exec -it api_go bash`
   when logged to docker in console run: 
-  `go run webapi`
+  `./webapi`
 - maybe there could be a problem with db dir
-  check if `docker/db/data` folder exists
+  check if `docker/db/data` folder exists (require rebuild docker)
 
 ## Check it is running
 api server: http://localhost:8080
